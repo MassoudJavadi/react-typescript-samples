@@ -19,6 +19,8 @@ export const App = () => {
 
   const setUsernameState = () => {
     setName(editingName);
+    console.log("name" + " " + name);
+    console.log("editingName" + " " + editingName);
   };
 
   return (
